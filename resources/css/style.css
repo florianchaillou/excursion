@@ -1,0 +1,47 @@
+/* Reset basic styles */
+body, h1, nav, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    background-color: #000000; /* Background color to make the header stand out */
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #007BFF; /* Adjust color as needed */
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Link styling */
+  .header-link {
+    color: #FFD700; /* Gold color for contrast */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .header-link:hover {
+    text-decoration: underline;
+  }
